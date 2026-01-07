@@ -14,7 +14,7 @@ export default function Hero() {
                 className="absolute inset-0 z-0 opacity-60"
             >
                 <img
-                    src="/hero-bg.png"
+                    src={`${import.meta.env.BASE_URL}hero-bg.png`}
                     alt="House of Beauty Atmosphere"
                     className="w-full h-full object-cover"
                 />

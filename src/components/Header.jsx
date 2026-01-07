@@ -32,11 +32,11 @@ export default function Header() {
                 {/* Logo Text/Image */}
                 <a href="#" className="relative z-50">
                     <img
-                        src="/logo.png"
+                        src={`${import.meta.env.BASE_URL}logo.png`}
                         alt="House of Beauty"
                         className={`h-12 w-auto transition-all duration-300 ${isMobileMenuOpen
-                                ? ''
-                                : (isScrolled ? '' : 'brightness-0 invert')
+                            ? ''
+                            : (isScrolled ? '' : 'brightness-0 invert')
                             }`}
                     />
                 </a>

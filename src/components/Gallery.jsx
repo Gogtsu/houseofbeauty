@@ -3,10 +3,10 @@ import { motion, useTransform, useScroll } from 'framer-motion';
 import { useRef } from 'react';
 
 const images = [
-    "/hero-bg.png",
-    "/hero-bg.png",
-    "/hero-bg.png",
-    "/hero-bg.png",
+    `${import.meta.env.BASE_URL}hero-bg.png`,
+    `${import.meta.env.BASE_URL}hero-bg.png`,
+    `${import.meta.env.BASE_URL}hero-bg.png`,
+    `${import.meta.env.BASE_URL}hero-bg.png`,
 ];
 
 export default function Gallery() {

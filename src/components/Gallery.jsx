@@ -5,7 +5,7 @@ import { useRef } from 'react';
 const images = [
     `${import.meta.env.BASE_URL}1.jpg`,
     `${import.meta.env.BASE_URL}2.jpg`,
-    `${import.meta.env.BASE_URL}3.jpg`,
+    `${import.meta.env.BASE_URL}5.jpg`,
     `${import.meta.env.BASE_URL}4.jpg`,
 ];
 

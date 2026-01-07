@@ -64,7 +64,7 @@ export default function About() {
                             className="relative z-10"
                         >
                             <img
-                                src={`${import.meta.env.BASE_URL}hero-bg.png`}
+                                src={`${import.meta.env.BASE_URL}3.jpg`}
                                 alt="House of Beauty Interior"
                                 className="w-full h-[600px] object-cover grayscale-[0.2]"
                             />
